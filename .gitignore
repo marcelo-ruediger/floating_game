@@ -1,1 +1,18 @@
+# macOS
 .DS_Store
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.p12
+*.pfx
+*.key
+id_rsa*
+*.crt
+
+# Logs and temp
+*.log
+npm-debug.log*
